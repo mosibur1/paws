@@ -30,9 +30,7 @@ class PAWS:
     def welcome(self):
         banner = pyfiglet.figlet_format("", font="slant")
         print(Fore.GREEN + Style.BRIGHT + banner + Style.RESET_ALL)
-        print(Fore.GREEN + f" JOIN TELEGRAM @savanop121")
-        print(Fore.RED + f" FREE TO USE = Join us on {Fore.GREEN}@savanop")
-        print(Fore.YELLOW + f" before start please '{Fore.GREEN}git pull{Fore.YELLOW}' to update bot")
+        print(Fore.GREEN + f" JOIN TELEGRAM @mrptechofficial")
         print(f"{Fore.WHITE}~" * 60)
 
     def format_seconds(self, seconds):
