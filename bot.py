@@ -397,7 +397,7 @@ class PAWS:
             self.welcome()
             self.hacker_animation()
             
-            menu = pyfiglet.figlet_format("SAVAN", font="slant")
+            menu = pyfiglet.figlet_format("MRPTech", font="slant")
             print(Fore.CYAN + menu + Style.RESET_ALL)
             
             options = [
