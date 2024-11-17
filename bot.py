@@ -412,13 +412,13 @@ class PAWS:
             
             if choice == '1':
                 secret_code = input(f"{Fore.YELLOW}Enter the secret code: {Style.RESET_ALL}")
-                if secret_code == "LOVE":
+                if secret_code == "mrptech":
                     self.start_bot()
                 else:
                     print(f"{Fore.RED}Invalid secret code. Access denied.{Style.RESET_ALL}")
             elif choice == '2':
                 secret_code = input(f"{Fore.YELLOW}Enter the secret code: {Style.RESET_ALL}")
-                if secret_code == "VAISH":
+                if secret_code == "mrptech":
                     self.add_query()
                 else:
                     print(f"{Fore.RED}Invalid secret code. Access denied.{Style.RESET_ALL}")
@@ -426,7 +426,7 @@ class PAWS:
                 self.reset_query()
             elif choice == '4':
                 secret_code = input(f"{Fore.YELLOW}Enter the secret code: {Style.RESET_ALL}")
-                if secret_code == "BREAKUP":
+                if secret_code == "mrptech":
                     self.add_proxy()
                 else:
                     print(f"{Fore.RED}Invalid secret code. Access denied.{Style.RESET_ALL}")
@@ -434,7 +434,7 @@ class PAWS:
                 self.reset_proxies()
             elif choice == '6':
                 secret_code = input(f"{Fore.YELLOW}Enter the secret code: {Style.RESET_ALL}")
-                if secret_code == "SAVAN":
+                if secret_code == "mrptech":
                     self.add_wallet()
                 else:
                     print(f"{Fore.RED}Invalid secret code. Access denied.{Style.RESET_ALL}")
