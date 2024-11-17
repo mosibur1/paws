@@ -386,7 +386,7 @@ class PAWS:
         chars = "/-\|"
         for _ in range(20):
             for char in chars:
-                sys.stdout.write('\r' + Fore.GREEN + Style.BRIGHT + f'Initializing PAWS Bot {char}' + Style.RESET_ALL)
+                sys.stdout.write('\r' + Fore.GREEN + Style.BRIGHT + f'Initializing MRPTech PAWS Bot {char}' + Style.RESET_ALL)
                 sys.stdout.flush()
                 time.sleep(0.1)
         print("\n")
